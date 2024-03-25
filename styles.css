@@ -1,0 +1,155 @@
+html {
+  box-sizing: border-box;
+}
+
+body,
+body::after,
+body::before {
+  box-sizing: inherit;
+}
+
+.dark{
+  background-color: rgb(32, 33, 36);
+  font-family: arial, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  text-align: right;
+}
+
+li {
+  padding-top: 5px;
+}
+
+a .main{
+  align-items: end;
+  text-align: right;
+}
+
+form.normal_form {
+  display: flex;
+  flex-direction: column;
+}
+
+input.normal_form{
+    align-self: center;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+input.normal_form:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input.normal_form:focus{
+    border-color:#4d90fe;
+    
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.logo{
+  margin-top: 220px;
+}
+
+input[type="text"].normal_form {
+  background-color: transparent;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+}
+
+input[type="submit"].normal_form {
+  border: none;
+  border-radius: 3px;
+  background: rgb(48, 49, 52);
+  color: white;
+  cursor: default;
+  font-size: 14px;
+  width: 150px;
+  height:36px;
+}
+
+input[type="submit"].normal_form:hover {
+    border: 1px solid #c6c6c6;
+}
+
+.subm{
+  align-self: center;
+}
+
+nav .dark-text{
+  color:black;
+}
+
+.form_sec{
+  margin: 25px 35px;
+}
+
+.appbar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 50px 0;
+}
+
+.find_main{
+  margin: 50px 0 10px 0;
+  font-size: 24px;
+}
+
+.advanced_form{
+  display: flex;
+}
+
+.labels, .inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs input{
+  margin: 10px ;
+}
+
+.advanced_form input{
+  width: 350px;
+}
+
+.advanced_form label{
+  padding: 10px 10px 10px 0;
+}
+
+.advanced_btn{
+  align-self: end;
+  user-select: none;
+  line-height: 100%;
+  height: 30px;
+  width: 150px !important;
+  background-color: rgb(71, 139, 248);
+  border: 1px solid #3079ed;
+  color: #fff;
+}
+
+.advanced_btn:hover{
+  background-color: rgb(61, 120, 214);
+  border-color: black;
+}
